@@ -1,0 +1,113 @@
+/* Police */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+/* Conteneur principal */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+/* Header */
+header {
+  background: #1f1f1f;
+  text-align: center;
+  padding: 80px 0;
+  border-bottom: 1px solid #333;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #00ffcc;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #bbb;
+}
+
+/* Sections */
+section {
+  border-bottom: 1px solid #333;
+  padding: 60px 0;
+}
+
+h2 {
+  font-size: 2em;
+  color: #00ffcc;
+  margin-bottom: 20px;
+}
+
+/* Projets */
+.project {
+  background: #1e1e1e;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+/* Compétences */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li {
+  background: #2a2a2a;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* Contact */
+a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#contact i {
+  margin-right: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1f1f1f;
+  color: #777;
+  font-size: 0.9em;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .skills-list {
+    flex-direction: column;
+  }
+}
